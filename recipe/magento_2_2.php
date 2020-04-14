@@ -19,7 +19,6 @@ require __DIR__ . '/magento_2_2/config.php';
 require __DIR__ . '/magento_2_2/crontab.php';
 require __DIR__ . '/magento_2_2/files.php';
 require __DIR__ . '/magento_2_2/rollback.php';
-require __DIR__ . '/magento_2_2/styles.php';
 
 desc('Build Artifact');
 task('build', function () {
